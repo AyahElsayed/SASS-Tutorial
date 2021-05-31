@@ -23,7 +23,7 @@
         text-align: center;
 
         &:hover {
-            background-color: #333;
+            background-color: lighten($deepblue, 6);
         }
     }
 }
@@ -70,7 +70,7 @@ section h1 {
         font-weight: bold;
 
         &:hover {
-            color: complement($deepblue);
+            color: complement($deepblue); //Colour Function
         }
     }
 
